@@ -8,7 +8,7 @@ export const  Header = ()=>{
                 <TopNavigation/>
                 <div className="flex items-center gap-5">
                     <CartHeader />
-                    <h1 className="lg:text-2xl text-gray-200">Ecommerce Project</h1>
+                    <h1 className="hidden lg:block lg:text-2xl text-gray-200">Ecommerce Project</h1>
                 </div>
                </div>
         </header>

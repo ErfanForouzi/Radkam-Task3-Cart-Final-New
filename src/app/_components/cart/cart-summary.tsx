@@ -22,7 +22,7 @@ const CartSummary: React.FC<CartSummaryProps> = ({
     router.replace(`/order/${orderItem.id}`);
     setTimeout(() => {
       dispatch(clearCart());
-    }, 200);
+    }, 400);
   };
 
   return (
