@@ -39,7 +39,12 @@ export default function RootLayout({
             className="flex-1 bg-gray-700
           "
           >
-            <ToastContainer />
+            <ToastContainer
+              rtl={false}
+              theme="colored"
+              position="bottom-left"
+              pauseOnFocusLoss={false}
+            />
             {children}
           </main>
           <Footer />
